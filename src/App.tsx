@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import Dashboard from './pages/Dashboard';
-import Stats from './pages/Stats';
-import Profile from './pages/Profile';
-import LoginPage from './pages/loginpage';
+import Dashboard from './src/pages/Dashboard';
+import Stats from './src/pages/Stats';
+import Profile from './src/pages/Profile';
+import LoginPage from './src/pages/loginpage';
 
 function App() {
   return (
